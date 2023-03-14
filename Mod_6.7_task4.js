@@ -5,4 +5,4 @@ function getMove(a, b) {
     }, 1000)
   }
   
-  getMove(8, 11);
+  getMove(8, 11) 
