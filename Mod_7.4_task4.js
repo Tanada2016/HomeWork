@@ -8,11 +8,14 @@
 
 
 function electricalDevice (name, manufacturer, power, turn ){
-    this.name= name,
-    this.turn = function(){console.log(`The ${this.name} is switched ${turn}.`)}
-    this.power = function(){console.log(`Power Consumption of the ${this.name} is ${power} W.`)}
-    this.manufacturer = function(){
-      
+    this.name = name,
+    this.turn = function(){
+      console.log(`The ${this.name} is switched ${turn}.`)
+    }
+    this.power = function(){
+      console.log(`Power Consumption of the ${this.name} is ${power} W.`)
+    }
+    this.manufacturer = function(){      
       console.log(`The ${name} is manufacturied by ${manufacturer}.`)
     }
   }
@@ -37,3 +40,21 @@ function electricalDevice (name, manufacturer, power, turn ){
   
   comp.manufacturer();
   
+
+//   class Device { constructor (DevName, power)
+//     {
+// this.DevName = DevName,
+// this.power = power
+// };};     
+// const sumDev =() => {
+// if (Device.power === true ) {
+// const sum = Iron.power + Lamp.power
+// return console.log(sum);}
+// return console.log('Один или оба не включены')
+// }
+
+// const Iron = new Device('iron', 1000);
+// const Lamp = new Device('lamp', 800);
+// console.log(Lamp);
+// console.log(Iron);
+// sumDev(Iron.power, Lamp.power);
