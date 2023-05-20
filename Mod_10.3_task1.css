@@ -1,0 +1,8 @@
+#myIcon {
+    font-size: 2rem;
+  }
+  
+  #myIcon.fill {
+    color: green;
+  }
+  
